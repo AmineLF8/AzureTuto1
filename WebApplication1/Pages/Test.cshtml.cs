@@ -14,7 +14,7 @@ namespace WebApplication1.Pages
 
         public void OnGet()
         {
-            throw (new Exception("Test App Insights Logging"));
+            throw new Exception("Test App Insights Logging");
         }
     }
 }
